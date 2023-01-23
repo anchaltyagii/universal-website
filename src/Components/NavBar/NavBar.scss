@@ -3,13 +3,14 @@
   padding: 0px 25px;
   position: fixed;
   top: 0;
-  z-index: 1;
+  z-index: 99;
   color: antiquewhite;
   height: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
+  background-color: #03c6fc;
 
   .img-wrapper {
     height: 80px;
@@ -32,10 +33,10 @@
 
   .navbar-container a {
     text-decoration: none;
-    color: rgb(170, 78, 78);
+    color: #fff;
   }
   .navbar-container a:hover {
-    color: #03c6fc;
-    border-bottom: 1px #03c6fc solid;
+    color: #111;
+    border-bottom: 1px #111 solid;
   }
 }

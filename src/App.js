@@ -7,9 +7,9 @@ import "./App.scss";
 
 function App() {
   return (
-    <div className="App">
-      <NavBar />
-      <div className="bg">
+    <>
+      <div className="App">
+        <NavBar />
         <Switch>
           {Routes.map((route, i) => {
             return (
@@ -22,9 +22,9 @@ function App() {
             );
           })}
         </Switch>
+        <Footer />
       </div>
-      <Footer />
-    </div>
+    </>
   );
 }
 
